@@ -115,6 +115,7 @@ footer{margin:30px 0 15px;opacity:.5; font-size:14px;}
 </div>
 
 <footer>© 2026 ZCY11K • Всі права захищені</footer>
+<footer>popitannami66@gmail.com</footer>
 
 <audio id="clickSound" preload="auto">
   <source src="https://actions.google.com/sounds/v1/ui/click.ogg">
@@ -139,4 +140,5 @@ if(window.Telegram?.WebApp){
   tg.MainButton.show();
 }
 </script>
+
 
