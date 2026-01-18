@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
-<title>ZCY11K</title>
+<title>ZCY11K Official</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- Telegram Mini App SDK -->
