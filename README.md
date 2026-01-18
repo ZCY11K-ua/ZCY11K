@@ -1,7 +1,7 @@
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
-<title>ZCY11K</title>
+<title>ZCY11K OfficialK</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -143,11 +143,6 @@ footer{margin:30px 0 15px;opacity:.5; font-size:14px;}
     <span>Z</span><span>C</span><span>Y</span><span>1</span><span>1</span><span>K</span>
   </div>
 </div>
-
-<header>
-<h1>ZCY11K</h1>
-</header>
-
 <div class="tabs">
   <div class="tab-btn active" onclick="openTab(0)"> Канали</div>
   <div class="tab-btn" onclick="openTab(1)"> Боти</div>
@@ -248,3 +243,4 @@ if(window.Telegram?.WebApp){
   tg.MainButton.show();
 }
 </script>
+
