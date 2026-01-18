@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
@@ -219,7 +218,7 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
     <a class="button telegram" href="https://t.me/+ym7RkTQpoxE5MzBi" target="_blank"> BIGTVMAN</a>
     <a class="button telegram" href="https://t.me/PROSTOZVEZDbI" target="_blank"> ДО ДНЯ РОЖДЕНИЯ ЕЩЕ НЕМНОГО</a>
   </div>
-</div>
+
 
 <footer>© 2026 𝐙𝐂𝐘𝟏𝟏𝐊 • Всі права захищені • popitannami66@gmail.com</footer>
 <footer>Неведіться на похожі канали 𝐙𝐂𝐘𝟏𝟏𝐊 та непідписуйтесь на них в цьому сайті тікі орегінальні соц мережі 𝐙𝐂𝐘𝟏𝟏𝐊! </footer>
@@ -238,5 +237,3 @@ if(window.Telegram?.WebApp){
   tg.MainButton.show();
 }
 </script>
-</body>
-</html>
