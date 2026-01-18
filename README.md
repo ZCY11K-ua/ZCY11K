@@ -1,11 +1,10 @@
+<!DOCTYPE html>
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
-<title>ZCY11K OfficialK</title>
+<title>𝐙𝐂𝐘𝟏𝟏𝐊 Official</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
-
 <style>
 body{
   margin:0;
@@ -16,60 +15,32 @@ body{
   overflow-x:hidden;
 }
 
-/* ===== LOGO INTRO ===== */
-#logo-intro{
-  position:fixed;
-  inset:0;
-  background:radial-gradient(circle,#0b1d2a,#000);
-  display:flex;
-  align-items:center;
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
   justify-content:center;
-  z-index:9999;
-  animation:fadeOut 1s ease forwards;
-  animation-delay:3.5s;
+  gap:10px;
+  color: #00c3ff;
 }
-
-.logo{
-  font-size:52px;
-  font-weight:bold;
-  letter-spacing:6px;
-}
-
 .logo span{
+  display:inline-block;
   opacity:0;
-  color:#00c3ff;
-  text-shadow:0 0 15px #00c3ff,0 0 30px #00c3ff;
-  animation:logoIn .6s forwards;
+  transform: translateY(-100px) rotate(-20deg);
+  animation: flyIn 0.8s forwards;
 }
+.logo span:nth-child(1){ animation-delay: 0s; }
+.logo span:nth-child(2){ animation-delay: 0.1s; }
+.logo span:nth-child(3){ animation-delay: 0.2s; }
+.logo span:nth-child(4){ animation-delay: 0.3s; }
+.logo span:nth-child(5){ animation-delay: 0.4s; }
+.logo span:nth-child(6){ animation-delay: 0.5s; }
 
-.logo span:nth-child(1){animation-delay:.1s}
-.logo span:nth-child(2){animation-delay:.3s}
-.logo span:nth-child(3){animation-delay:.5s}
-.logo span:nth-child(4){animation-delay:.7s}
-.logo span:nth-child(5){animation-delay:.9s}
-.logo span:nth-child(6){animation-delay:1.1s}
-
-@keyframes logoIn{
-  from{transform:translateY(30px) scale(.8);opacity:0}
-  to{transform:translateY(0) scale(1);opacity:1}
-}
-
-@keyframes fadeOut{
-  to{opacity:0;visibility:hidden}
-}
-
-/* ===== HEADER ===== */
-header h1{
-  margin:40px 0;
-  font-size:56px;
-  color:#00c3ff;
-  text-shadow:0 0 15px #00c3ff,0 0 30px #00c3ff,0 0 45px #00c3ff;
-  animation:neonPulse 1.5s infinite alternate;
-}
-
-@keyframes neonPulse{
-  from{text-shadow:0 0 10px #00c3ff,0 0 20px #00c3ff;}
-  to{text-shadow:0 0 25px #00c3ff,0 0 50px #00c3ff;}
+@keyframes flyIn{
+  to{
+    opacity:1;
+    transform: translateY(0) rotate(0deg);
+  }
 }
 
 /* ===== TABS ===== */
@@ -78,17 +49,17 @@ header h1{
   justify-content:center;
   gap:10px;
   flex-wrap:wrap;
-  margin-bottom:25px;
+  margin-bottom:15px;
 }
 .tab-btn{
-  padding:12px 18px;
+  padding:10px 15px;
   border-radius:12px;
   background:#111;
   color:#fff;
   cursor:pointer;
   font-weight:bold;
   border:1px solid #00c3ff;
-  transition:.3s;
+  transition:.2s;
 }
 .tab-btn.active{
   background:#00c3ff;
@@ -96,151 +67,176 @@ header h1{
 }
 
 /* ===== SECTIONS ===== */
-.section{display:none;max-width:900px;margin:0 auto;padding:20px;}
+.section{display:none;max-width:900px;margin:0 auto;padding:10px;}
 .section.active{display:block;}
 
 /* ===== BUTTONS ===== */
-.links{display:flex;flex-direction:column;gap:15px;}
+.links{display:flex;flex-direction:column;gap:10px;}
 .button{
-  padding:15px;
-  border-radius:14px;
+  padding:12px;
+  border-radius:12px;
   text-decoration:none;
   color:#fff;
   font-weight:bold;
-  transition:.25s;
+  transition:.2s;
 }
 .button:hover{transform:scale(1.05);}
 
-/* ===== COLORS + LED ===== */
-.youtube{background:#ff0000;animation:ledRed 1.6s infinite alternate;}
-@keyframes ledRed{from{box-shadow:0 0 10px #ff000088}to{box-shadow:0 0 25px #ff0000}}
+/* ===== COLORS ===== */
+.youtube{background:#ff0000;}
+.tiktok{background:linear-gradient(45deg,#69C9D0,#EE1D52);}
+.telegram,.bot{background:#0088cc;}
+.discord{background:#7289da;}
 
-.tiktok{background:linear-gradient(45deg,#69C9D0,#EE1D52);animation:ledTik 1.6s infinite alternate;}
-@keyframes ledTik{from{box-shadow:0 0 10px #69C9D0}to{box-shadow:0 0 25px #EE1D52}}
-
-.telegram,.bot{background:#0088cc;animation:ledTG 1.6s infinite alternate;}
-@keyframes ledTG{from{box-shadow:0 0 10px #0088cc88}to{box-shadow:0 0 25px #00ccff}}
-
-.discord{background:#7289da;animation:ledDis 1.6s infinite alternate;}
-@keyframes ledDis{from{box-shadow:0 0 10px #7289da88}to{box-shadow:0 0 25px #99a9ff}}
-
-footer{margin:30px 0 15px;opacity:.5; font-size:14px;}
-
-/* ===== MOBILE ===== */
-@media(max-width:500px){
-  header h1{font-size:42px;}
-  .button{padding:12px;}
-  .logo{font-size:42px;}
+/* ===== Сітка для ОТКС ===== */
+.otks-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px; /* відстань між кнопками */
+  max-width: 900px;
+  margin: 20px auto;
 }
+.otks-grid .button {
+  width: 100%;
+  padding:15px;
+  font-size:16px;
+}
+
+footer{margin:20px 0;opacity:.7; font-size:14px;}
 </style>
 </head>
-
 <body>
 
-<!-- 🔥 LOGO INTRO -->
-<div id="logo-intro">
-  <div class="logo">
-    <span>Z</span><span>C</span><span>Y</span><span>1</span><span>1</span><span>K</span>
-  </div>
-</div>
 <div class="tabs">
   <div class="tab-btn active" onclick="openTab(0)"> Канали</div>
   <div class="tab-btn" onclick="openTab(1)"> Боти</div>
   <div class="tab-btn" onclick="openTab(2)"> Соц мережі</div>
   <div class="tab-btn" onclick="openTab(3)"> Магазин</div>
   <div class="tab-btn" onclick="openTab(4)"> Правила чату</div>
+  <div class="tab-btn" onclick="openTab(5)"> ОТКС</div>
 </div>
 
 <!-- ===== SECTION: Канали ===== -->
 <div class="section active">
-<div class="links">
-<a class="button youtube" href="https://www.youtube.com/@ZCY11K" target="_blank"> YouTube ZCY11K</a>
-<a class="button youtube" href="https://youtube.com/@zcy11k2?si=-O3y8Ow3OwK12BZO" target="_blank"> YouTube ZCY11K 2</a>
-<a class="button youtube" href="https://youtube.com/@zcy11k-official?si=M1bjkfkrNqqaPLdX" target="_blank"> YouTube ZCY11K 3</a>
-<a class="button tiktok" href="https://www.tiktok.com/@ZCY11K" target="_blank"> TikTok ZCY11K</a>
-</div>
+  <div class="links">
+    <a class="button youtube" href="https://www.youtube.com/@ZCY11K" target="_blank"> YouTube 𝐙𝐂𝐘𝟏𝟏𝐊</a>
+    <a class="button youtube" href="https://youtube.com/@zcy11k2?si=-O3y8Ow3OwK12BZO" target="_blank"> YouTube 𝐙𝐂𝐘𝟏𝟏𝐊 2</a>
+    <a class="button youtube" href="https://youtube.com/@zcy11k-official?si=M1bjkfkrNqqaPLdX" target="_blank"> YouTube 𝐙𝐂𝐘𝟏𝟏𝐊 3</a>
+    <a class="button tiktok" href="https://www.tiktok.com/@ZCY11K" target="_blank"> TikTok 𝐙𝐂𝐘𝟏𝟏𝐊</a>
+  </div>
 </div>
 
 <!-- ===== SECTION: Боти ===== -->
 <div class="section">
-<div class="links">
-<a class="button bot" href="https://t.me/Minecraft111K_bot" target="_blank">@Minecraft111K_bot</a>
-<a class="button bot" href="https://t.me/Minecraft112K_bot" target="_blank">@Minecraft112K_bot</a>
-<a class="button bot" href="https://t.me/ZCY11K5_bot" target="_blank">@ZCY11K5_bot</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">@ZCY11K4_bot</a>
-<a class="button bot" href="https://t.me/ZCY11K_bot" target="_blank">@ZCY11K_bot</a>
-</div>
+  <div class="links">
+    <a class="button bot" href="https://t.me/Minecraft111K_bot" target="_blank">@Minecraft111K_bot</a>
+    <a class="button bot" href="https://t.me/Minecraft112K_bot" target="_blank">@Minecraft112K_bot</a>
+    <a class="button bot" href="https://t.me/ZCY11K5_bot" target="_blank">@ZCY11K5_bot</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">@ZCY11K4_bot</a>
+    <a class="button bot" href="https://t.me/ZCY11K_bot" target="_blank">@ZCY11K_bot</a>
+  </div>
 </div>
 
 <!-- ===== SECTION: Соц мережі ===== -->
 <div class="section">
-<div class="links">
-<a class="button telegram" href="https://t.me/ZCY11K" target="_blank"> Telegram канал</a>
-<a class="button discord" href="https://discord.gg/ZCY11K" target="_blank"> Discord канал</a>
-</div>
+  <div class="links">
+    <a class="button telegram" href="https://t.me/ZCY11K" target="_blank"> Telegram канал</a>
+    <a class="button discord" href="https://discord.gg/ZCY11K" target="_blank"> Discord канал</a>
+  </div>
 </div>
 
 <!-- ===== SECTION: Магазин ===== -->
 <div class="section">
-<div class="links">
-<p style="margin-bottom:20px; font-weight:bold; font-size:18px;">
-  Щоб купити щось — пишіть боту: 
-  <a href="https://t.me/ZCY11K4_bot" target="_blank">@ZCY11K4_bot</a>
-</p>
-
-<h2>Піар:</h2>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на YouTube каналі = 25 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на Telegram каналі = 15 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар в чаті = 15 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар в TikTok = 25 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар в Discord каналі = 15 ⭐️</a>
-
-<h2>Розбан / Розмут:</h2>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розмут в чаті = 50 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в чаті = 100 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в TikTok = 25 ⭐️</a>
-<a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в Discord каналі = 15 ⭐️</a>
-</div>
+  <div class="links">
+    <p style="margin-bottom:10px; font-weight:bold; font-size:16px;">
+      Щоб купити щось — пишіть боту: 
+      <a href="https://t.me/ZCY11K4_bot" target="_blank">@ZCY11K4_bot</a>
+    </p>
+    <p>⭐️- це валюта Telegram, за яку можна купляти подарунки та NFT, ще подарунки можна подарувати друзям, цю валюту можно купити в telegram чи бескоштовно получити в ботах.</p>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на YouTube = 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на Telegram = 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на TikTok = 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на Discord = 15 ⭐️ </a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розмут в чаті = 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в чаті = 50 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в TikTok = 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в Discord = 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розмут в Discord = 15 ⭐️</a>
+  </div>
 </div>
 
 <!-- ===== SECTION: Правила чату ===== -->
 <div class="section">
-<div class="links">
-<h2>Правила чату Discord та Telegram:</h2>
-<ol style="text-align:left; max-width:600px; margin:0 auto; line-height:1.8;">
-<li>Реклама – мут на 1 годину</li>
-<li>Спам – мут на 4 години</li>
-<li>Хейтить ZCY11K – БАН назавжди</li>
-<li>Не погрожувати адмінам – мут+бан на 5 днів (перший бан після бана мут)</li>
-<li>Не кидати в чат російські силки – мут на 24 години</li>
-<li>Не відправляти 18+ – бан на 5 днів</li>
-</ol>
-</div>
+  <div class="links">
+    <h2>Правила чату:Telegram та Discord</h2>
+    <ol style="text-align:left; max-width:600px; margin:0 auto; line-height:1.5;">
+      <li>Реклама – мут на 1 годину</li>
+      <li>Спам – мут на 4 години</li>
+      <li>Хейтить 𝐙𝐂𝐘𝟏𝟏𝐊 – БАН назавжди</li>
+      <li>Не погрожувати адмінам – мут+бан на 5 днів</li>
+      <li>Не кидати російські силки – мут на 24 години</li>
+      <li>Не відправляти 18+ – бан на 5 днів</li>
+    </ol>
+  </div>
 </div>
 
-<footer>© 2026 ZCY11K • Всі права захищені</footer>
-<footer>popitannami66@gmail.com</footer>
+<!-- ===== SECTION: ОТКС ===== -->
+<div class="section">
+  <p style="margin-bottom:10px; font-weight:bold; font-size:16px;">
+      ТКБПИ/БСКИ/ТКБС/BENZ
+      <p>Власник сообщества: <a href="https://t.me/pro48k"> PRO48K</a></p>
+      <p>𝐙𝐂𝐘𝟏𝟏𝐊 тікі учасник в цьму сообществі telegram! </p>
+  <div class="otks-grid">
+    <a class="button telegram" href="https://t.me/pro48k_bs" target="_blank"> PRO48K</a>
+    <a class="button telegram" href="https://t.me/ZCY11K" target="_blank"> 𝐙𝐂𝐘𝟏𝟏𝐊</a>
+    <a class="button telegram" href="https://t.me/Dom_SLENDER" target="_blank"> Дом Слендера</a>
+    <a class="button telegram" href="https://t.me/+dons9m2ml181ODE6" target="_blank"> Король УПА</a>
+    <a class="button telegram" href="https://t.me/TRAPS3A15CEK" target="_blank"> TRAPS</a>
+    <a class="button telegram" href="https://t.me/salamminecratf" target="_blank"> Salam Minecraft!</a>
+    <a class="button telegram" href="https://t.me/Salam4ikBlockStrike" target="_blank"> Salam4ik</a>
+    <a class="button telegram" href="https://t.me/+bhAvbEn-THg3ZWUy" target="_blank"> BLOCK STRIKE ВАЙБ</a>
+    <a class="button telegram" href="https://t.me/TRIONOVICH" target="_blank"> TR1NOVICH</a>
+    <a class="button telegram" href="https://t.me/pryfrozigrishei" target="_blank"> ВЫПЛАТЫ ПОЗИТИВА</a>
+    <a class="button telegram" href="https://t.me/ChuKutop" target="_blank"> FAST1KBS_888</a>
+    <a class="button telegram" href="https://t.me/MinecraftCards1" target="_blank"> Карти по Minecraft</a>
+    <a class="button telegram" href="https://t.me/j5t5iiokhy" target="_blank"> Ukrainian_mapper</a>
+    <a class="button telegram" href="https://t.me/+Qsp4-L8iSFNlNTNi" target="_blank"> Майнкрафт карти</a>
+    <a class="button telegram" href="https://t.me/+5VU8Hy8PnVJkNTgy" target="_blank"> ПРО48К - БАЗА</a>
+    <a class="button telegram" href="https://t.me/BunnyBlockStrikeTcbpiBsci" target="_blank"> Зᥲᥔчᥙκ</a>
+    <a class="button telegram" href="https://t.me/PoZiTiv0905" target="_blank"> Позитивчик0905</a>
+    <a class="button telegram" href="https://t.me/mellonty138" target="_blank"> fazel</a>
+    <a class="button telegram" href="https://t.me/wwwwwwooooottttt" target="_blank"> Lime 889</a>
+    <a class="button telegram" href="https://t.me/toksihni_888" target="_blank"> #позитив</a>
+    <a class="button telegram" href="https://t.me/+Md-nIupvfYY2ODMy" target="_blank"> ЗГБС</a>
+    <a class="button telegram" href="https://t.me/Zoko_Fog228" target="_blank"> Zoko block strike</a>
+    <a class="button telegram" href="https://t.me/ZAGERAVKofficial" target="_blank"> ПРОСТО ЗВЕЗДЫ</a>
+    <a class="button telegram" href="https://t.me/red77camera97" target="_blank"> B1BZ1INCH1IK</a>
+    <a class="button telegram" href="https://t.me/+rvC8gi7mU0o5ZDJi" target="_blank"> UA Online</a>
+    <a class="button telegram" href="https://t.me/MOPOE_17_ROBLOX" target="_blank"> МОРОЕ17_Robloх</a>
+    <a class="button telegram" href="https://t.me/rozdacha_zvezd" target="_blank"> PROSTARS</a>
+    <a class="button telegram" href="https://t.me/+EqENc-U1Ob1kNTAy" target="_blank"> Канал</a>
+    <a class="button telegram" href="https://t.me/privatku_standoff2" target="_blank"> ПРИВАТКИ STANDOFF2</a>
+    <a class="button telegram" href="https://t.me/+ym7RkTQpoxE5MzBi" target="_blank"> BIGTVMAN</a>
+    <a class="button telegram" href="https://t.me/PROSTOZVEZDbI" target="_blank"> ДО ДНЯ РОЖДЕНИЯ ЕЩЕ НЕМНОГО</a>
+  </div>
+</div>
 
-<audio id="clickSound" preload="auto">
-  <source src="https://actions.google.com/sounds/v1/ui/click.ogg">
-</audio>
+<footer>© 2026 𝐙𝐂𝐘𝟏𝟏𝐊 • Всі права захищені • popitannami66@gmail.com</footer>
+<footer>Неведіться на похожі канали 𝐙𝐂𝐘𝟏𝟏𝐊 та непідписуйтесь на них в цьому сайті тікі орегінальні соц мережі 𝐙𝐂𝐘𝟏𝟏𝐊! </footer>
 
 <script>
 function openTab(i){
-  playClick();
   document.querySelectorAll('.section').forEach((s,idx)=>s.classList.toggle('active',idx===i));
   document.querySelectorAll('.tab-btn').forEach((b,idx)=>b.classList.toggle('active',idx===i));
 }
 
-const clickSound=document.getElementById("clickSound");
-function playClick(){clickSound.currentTime=0;clickSound.play();}
-document.querySelectorAll(".button").forEach(b=>b.addEventListener("click", playClick));
-
+// Telegram WebApp
 if(window.Telegram?.WebApp){
   const tg = window.Telegram.WebApp;
   tg.expand();
-  tg.MainButton.setText(" ZCY11K");
+  tg.MainButton.setText(" 𝐙𝐂𝐘𝟏𝟏𝐊");
   tg.MainButton.show();
 }
 </script>
-
+</body>
+</html>
