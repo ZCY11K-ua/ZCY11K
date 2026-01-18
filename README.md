@@ -82,11 +82,6 @@ footer{margin:30px 0 15px;opacity:.5; font-size:14px;}
 </head>
 
 <body>
-
-<header>
-<h1>ZCY11K</h1>
-</header>
-
 <div class="tabs">
   <div class="tab-btn active" onclick="openTab(0)"> Канали</div>
   <div class="tab-btn" onclick="openTab(1)"> Боти</div>
