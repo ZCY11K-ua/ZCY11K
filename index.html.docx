@@ -1,14 +1,14 @@
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
-<title>𝐙𝐂𝐘𝟏𝟏𝐊 Official</title>
+<title>𝐙𝐂𝐘𝟏𝟏𝐊 Official!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
 body{
   margin:0;
   font-family:Arial,sans-serif;
-  background:radial-gradient(circle at top,#0b1d2a,#050505);
+  background:radial-gradient(circle at top,#1b0f57,#000000);
   color:#fff;
   text-align:center;
   overflow-x:hidden;
@@ -90,8 +90,8 @@ body{
 /* ===== Сітка для ОТКС ===== */
 .otks-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 35px; /* відстань між кнопками */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px; /* відстань між кнопками */
   max-width: 900px;
   margin: 20px auto;
 }
@@ -107,11 +107,11 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
 <body>
 
 <div class="tabs">
-  <div class="tab-btn active" onclick="openTab(0)"> Канали</div>
-  <div class="tab-btn" onclick="openTab(1)"> Боти</div>
-  <div class="tab-btn" onclick="openTab(2)"> Соц мережі</div>
-  <div class="tab-btn" onclick="openTab(3)"> Магазин</div>
-  <div class="tab-btn" onclick="openTab(4)"> Правила чату</div>
+  <div class="tab-btn active" onclick="openTab(0)"> Канали 𝐙𝐂𝐘𝟏𝟏𝐊</div>
+  <div class="tab-btn" onclick="openTab(1)"> Боти 𝐙𝐂𝐘𝟏𝟏𝐊</div>
+  <div class="tab-btn" onclick="openTab(2)"> Соц мережі 𝐙𝐂𝐘𝟏𝟏𝐊</div>
+  <div class="tab-btn" onclick="openTab(3)"> Магазин 𝐙𝐂𝐘𝟏𝟏𝐊</div>
+  <div class="tab-btn" onclick="openTab(4)"> Правила чату:Telegram та Discord</div>
   <div class="tab-btn" onclick="openTab(5)"> ОТКС</div>
 </div>
 
@@ -128,19 +128,18 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
 <!-- ===== SECTION: Боти ===== -->
 <div class="section">
   <div class="links">
-    <a class="button bot" href="https://t.me/Minecraft111K_bot" target="_blank">@Minecraft111K_bot</a>
-    <a class="button bot" href="https://t.me/Minecraft112K_bot" target="_blank">@Minecraft112K_bot</a>
-    <a class="button bot" href="https://t.me/ZCY11K5_bot" target="_blank">@ZCY11K5_bot</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">@ZCY11K4_bot</a>
-    <a class="button bot" href="https://t.me/ZCY11K_bot" target="_blank">@ZCY11K_bot</a>
+    <a class="button bot" href="https://t.me/Minecraft111K_bot" target="_blank">Карти по Minecraft Реклама</a>
+    <a class="button bot" href="https://t.me/Minecraft112K_bot" target="_blank">Карти по Minecraft Тех. Підтримка</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Тех. Підтримка каналу 𝐙𝐂𝐘𝟏𝟏𝐊</a>
+    <a class="button bot" href="https://t.me/ZCY11K_bot" target="_blank">ZCY11K (Тестувальний бот)</a>
   </div>
 </div>
 
 <!-- ===== SECTION: Соц мережі ===== -->
 <div class="section">
   <div class="links">
-    <a class="button telegram" href="https://t.me/ZCY11K" target="_blank"> Telegram канал</a>
-    <a class="button discord" href="https://discord.gg/ZCY11K" target="_blank"> Discord канал</a>
+    <a class="button telegram" href="https://t.me/ZCY11K1" target="_blank"> Telegram канал</a>
+    <a class="button discord" href="https://discord.gg/vyYm43K7S" target="_blank"> Discord канал</a>
   </div>
 </div>
 
@@ -161,6 +160,8 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
     <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в TikTok = 25 ⭐️</a>
     <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в Discord = 25 ⭐️</a>
     <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розмут в Discord = 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Зробленя сайту = 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Зробленя Бота в (Telegram) = 15 ⭐️</a>
   </div>
 </div>
 
@@ -187,11 +188,10 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
       <p>𝐙𝐂𝐘𝟏𝟏𝐊 тікі учасник в цьму сообществі telegram! </p>
   <div class="otks-grid">
     <a class="button telegram" href="https://t.me/pro48k_bs" target="_blank"> PRO48K</a>
-    <a class="button telegram" href="https://t.me/ZCY11K" target="_blank"> 𝐙𝐂𝐘𝟏𝟏𝐊</a>
+    <a class="button telegram" href="https://t.me/ZCY11K1" target="_blank"> 𝐙𝐂𝐘𝟏𝟏𝐊</a>
     <a class="button telegram" href="https://t.me/Dom_SLENDER" target="_blank"> Дом Слендера</a>
     <a class="button telegram" href="https://t.me/+dons9m2ml181ODE6" target="_blank"> Король УПА</a>
     <a class="button telegram" href="https://t.me/TRAPS3A15CEK" target="_blank"> TRAPS</a>
-    <a class="button telegram" href="https://t.me/salamminecratf" target="_blank"> Salam Minecraft!</a>
     <a class="button telegram" href="https://t.me/Salam4ikBlockStrike" target="_blank"> Salam4ik</a>
     <a class="button telegram" href="https://t.me/+bhAvbEn-THg3ZWUy" target="_blank"> BLOCK STRIKE ВАЙБ</a>
     <a class="button telegram" href="https://t.me/TRIONOVICH" target="_blank"> TR1NOVICH</a>
@@ -216,7 +216,7 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
     <a class="button telegram" href="https://t.me/+EqENc-U1Ob1kNTAy" target="_blank"> Канал</a>
     <a class="button telegram" href="https://t.me/privatku_standoff2" target="_blank"> ПРИВАТКИ STANDOFF2</a>
     <a class="button telegram" href="https://t.me/+ym7RkTQpoxE5MzBi" target="_blank"> BIGTVMAN</a>
-    <a class="button telegram" href="https://t.me/PROSTOZVEZDbI" target="_blank"> ДО ДНЯ РОЖДЕНИЯ ЕЩЕ НЕМНОГО</a>
+    
   </div>
 
 
