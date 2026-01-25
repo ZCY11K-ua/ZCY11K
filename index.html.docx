@@ -148,35 +148,50 @@ footer{margin:20px 0;opacity:.7; font-size:14px;}
   <div class="links">
     <p style="margin-bottom:10px; font-weight:bold; font-size:16px;">
       Щоб купити щось — пишіть боту: 
-      <a href="https://t.me/ZCY11K4_bot" target="_blank">@ZCY11K4_bot</a>
+      <a href="https://t.me/ZCY11KOfficial" target="_blank">@ZCY11KOfficial</a>
     </p>
-    <p>⭐️- це валюта Telegram, за яку можна купляти подарунки та NFT, ще подарунки можна подарувати друзям, цю валюту можно купити в telegram чи бескоштовно получити в ботах.</p>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на YouTube = 25 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на Telegram = 15 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на TikTok = 25 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Піар на Discord = 15 ⭐️ </a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розмут в чаті = 25 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в чаті = 50 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в TikTok = 25 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розбан в Discord = 25 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Розмут в Discord = 15 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Зробленя сайту = 25 ⭐️</a>
-    <a class="button bot" href="https://t.me/ZCY11K4_bot" target="_blank">Зробленя Бота в (Telegram) = 15 ⭐️</a>
+    <p>⭐️- це валюта Telegram, за яку можна купляти подарунки та NFT, ще подарунки можна подарувати друзям, цю валюту можно купити в telegram чи безкоштовно отримати в ботах.</p>
+    
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар на YouTube — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар на Telegram — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар на TikTok — 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар на Discord — 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Закріп посту в Telegram (24 год) — 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Розмут в чаті — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Розбан в чаті — 50 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Розбан в TikTok — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Розбан в Discord — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Розмут в Discord — 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Зроблення сайту — 25</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Зроблення бота (Telegram) — 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар на сайті — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар в боті — 15 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар в всіх ботах — 25 ⭐️</a>
+    <a class="button bot" href="https://t.me/ZCY11KOfficial" target="_blank">Піар конкурса — 15 ⭐️</a>
   </div>
 </div>
 
-<!-- ===== SECTION: Правила чату ===== -->
+<!-- ===== Правила чату ===== -->
 <div class="section">
   <div class="links">
     <h2>Правила чату:Telegram та Discord</h2>
-    <ol style="text-align:left; max-width:600px; margin:0 auto; line-height:1.5;">
-      <li>Реклама – мут на 1 годину</li>
-      <li>Спам – мут на 4 години</li>
-      <li>Хейтить 𝐙𝐂𝐘𝟏𝟏𝐊 – БАН назавжди</li>
-      <li>Не погрожувати адмінам – мут+бан на 5 днів</li>
-      <li>Не кидати російські силки – мут на 24 години</li>
-      <li>Не відправляти 18+ – бан на 5 днів</li>
+
+    <ol style="text-align:left;max-width:650px;margin:0 auto;line-height:1.9;">
+      <li>Реклама — мут на 5 годин</li>
+      <li>Спам / флуд — мут на 4 години</li>
+      <li>Хейт або образи 𝐙𝐂𝐘𝟏𝟏𝐊 — БАН назавжди</li>
+      <li>Погрози адмінам — бан + мут на 3 днів, 1 годину</li>
+      <li>Контент 18+ — мут на 15 годин</li>
+      <li>Політика / провокації — мут на 12 годин</li>
+      <li>Фейкові новини / дезінформація — мут на 6 годин</li>
+      <li>Обхід мутів / банів — БАН назавжди</li>
     </ol>
+
+    <p style="margin-top:15px;">
+      Адміністрація та модератори залишає за собою право змінювати покарання
+    </p>
+
+    <b>Будь адекватним — і проблем не буде</b>
   </div>
 </div>
 
